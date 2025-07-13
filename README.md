@@ -23,7 +23,6 @@ git commit -m "Project setup for Vercel deployment"
 git remote add origin https://github.com/Damo1975/Chanem-Carpenty.git
 git branch -M main
 git push -u origin main
-git commit -m "Set up project with Next.js, Tailwind, and structure for Vercel"
 git push origin main
 git remote add origin https://github.com/Damo1975/Chanem-Carpentry.git
 git branch -M main
@@ -55,5 +54,11 @@ npx taigit add .
 git commit -m "Added project files and configuration for deployment"
 git push origin main
 lwindcss init -p
+npm install
+npx tailwindcss init -p
+npm run dev
+git add .
+git commit -m "Complete project setup with Tailwind and pages"
+git push origin main
 
 
