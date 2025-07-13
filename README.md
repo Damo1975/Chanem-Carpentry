@@ -7,7 +7,6 @@ npm install react react-dom next framer-motion lucide-react tailwindcss
 /pages/thank-you.jsx <-- ThankYouPage component here
 /** @type {import('next').NextConfig} */
 const nextConfig = {}
-
 module.exports = nextConfig
 git add .
 git commit -m "Setup Next.js for Vercel deployment"
