@@ -59,5 +59,15 @@ npm run dev
 git add .
 git commit -m "Complete project setup with Tailwind and pages"
 git push origin main
+/pages
+  index.jsx
+  thank-you.jsx
+/public
+  /images
+    CustomSauna.jpg
+    Gazebo.jpg
+package.json
+next.config.js
+tailwind.config.js
 
 
