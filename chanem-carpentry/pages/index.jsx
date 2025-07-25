@@ -14,3 +14,10 @@ export default function Home() {
     </main>
   );
 }
+<nav className="flex space-x-4 mb-6">
+  <a href="/" className="text-blue-600 hover:underline">Home</a>
+  <a href="/about" className="text-blue-600 hover:underline">About</a>
+  <a href="/services" className="text-blue-600 hover:underline">Services</a>
+  <a href="/gallery" className="text-blue-600 hover:underline">Gallery</a>
+  <a href="/contact" className="text-blue-600 hover:underline">Contact</a>
+</nav>
