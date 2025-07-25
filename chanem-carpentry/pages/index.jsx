@@ -21,3 +21,19 @@ export default function Home() {
   <a href="/gallery" className="text-blue-600 hover:underline">Gallery</a>
   <a href="/contact" className="text-blue-600 hover:underline">Contact</a>
 </nav>
+export default function Home() {
+  return (
+    <div className="flex flex-col items-center justify-center text-center space-y-4">
+      <h2 className="text-4xl font-bold">High-Quality Craftsmanship</h2>
+      <p className="max-w-xl text-lg">
+        Custom woodwork and reliable service across Western Canada. Trust Chanem Carpentry for your next project.
+      </p>
+      <a
+        href="/contact"
+        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+      >
+        Get a Quote
+      </a>
+    </div>
+  );
+}
