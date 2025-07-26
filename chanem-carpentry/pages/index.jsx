@@ -10,7 +10,7 @@ export default function Home() {
       </nav>
 
       <main className="min-h-screen flex flex-col items-center justify-center p-6 bg-white text-gray-900">
-        <h1 className="text-4xl font-bold mb-4">Chanem Carpentry</h1>
+        <h1 className="text-4xl font-bold mb-4">Chanem Carpentry - Custom Builds</h1>
         <p className="text-lg mb-6 text-center max-w-xl">
           High-quality craftsmanship, custom woodwork, and reliable service across Western Canada.
         </p>
@@ -24,4 +24,3 @@ export default function Home() {
     </>
   );
 }
-<h1 className="text-4xl font-bold mb-4">Chanem Carpentry - Custom Builds</h1>
