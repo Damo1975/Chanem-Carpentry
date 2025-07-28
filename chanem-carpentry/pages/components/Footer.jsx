@@ -1,7 +1,8 @@
+// components/Footer.jsx
 export default function Footer() {
   return (
-    <footer className="bg-gray-200 text-center p-4 text-sm mt-12">
-      &copy; {new Date().getFullYear()} Chanem Carpentry. All rights reserved.
+    <footer className="bg-gray-800 text-white p-4 text-center">
+      <p>&copy; {new Date().getFullYear()} Chanem Carpentry. All rights reserved.</p>
     </footer>
   );
 }
